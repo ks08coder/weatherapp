@@ -17,6 +17,7 @@ const requestCity = async (city) => {
 
     //promise data
     const data = await response.json();
+    Console.log (data)
     return data;
 
 }
